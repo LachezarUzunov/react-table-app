@@ -1,12 +1,14 @@
-import { useState } from 'react'
 import './App.css'
-import tw from 'twin.macro'
+import { Products } from './components/products/Products'
 
 function App() {
-    const [count, setCount] = useState(0)
+
 
     return (
-        
+        <div className='layout'>
+            <h1>React Tables</h1>
+            <Products />
+        </div>
     )
 }
 
